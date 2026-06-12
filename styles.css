@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light;
+  --sky: #80e8d8;
+  --sky-deep: #5fd7c6;
+  --grass: #d9ee7d;
+  --ink: #07194f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 20% 14%, rgba(255, 255, 255, 0.5), transparent 24%),
+    linear-gradient(145deg, #6ad8ce 0%, var(--sky) 45%, #b7f0d9 100%);
+  color: var(--ink);
+  font-family: "Baloo 2", "Nunito", "Trebuchet MS", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+canvas {
+  font: inherit;
+}
+
+.game-shell {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: max(8px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right))
+    max(8px, env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left));
+  overflow: hidden;
+}
+
+#game-root {
+  width: min(100vw, calc((100dvh - 16px) * 0.5625), 540px);
+  height: min(calc(100vw * 1.7777778), calc(100dvh - 16px), 960px);
+  position: relative;
+  overflow: hidden;
+  border-radius: clamp(0px, 2.5vw, 26px);
+  background: var(--sky);
+  box-shadow:
+    0 28px 90px rgba(5, 92, 97, 0.24),
+    0 4px 16px rgba(5, 42, 68, 0.18);
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#game-root canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 560px) {
+  .game-shell {
+    padding: 0;
+    background: var(--sky);
+  }
+
+  #game-root {
+    width: min(100vw, 56.25dvh);
+    height: min(177.7778vw, 100dvh);
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}
