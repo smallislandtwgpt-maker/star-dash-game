@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 180" role="img" aria-label="falling motion trail">
+  <path d="M26 3 C28 49 28 93 20 170" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.48"/>
+  <path d="M44 0 C47 44 48 88 42 161" fill="none" stroke="#fff2aa" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <path d="M60 16 C64 52 64 87 58 133" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.34"/>
+</svg>
