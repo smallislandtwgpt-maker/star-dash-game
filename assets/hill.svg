@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 190" role="img" aria-label="green hill">
+  <path d="M0 88 C111 28 232 14 340 44 C430 70 490 113 540 123 L540 190 L0 190 Z" fill="#cde970"/>
+  <path d="M0 118 C118 58 232 42 340 70 C423 92 477 130 540 141 L540 190 L0 190 Z" fill="#b9db58"/>
+  <path d="M40 132 C102 91 182 82 256 96" fill="none" stroke="#e9f79d" stroke-width="9" stroke-linecap="round" opacity="0.66"/>
+</svg>
