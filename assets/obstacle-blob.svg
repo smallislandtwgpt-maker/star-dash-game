@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 116" role="img" aria-label="red obstacle blob">
+  <path d="M70 9 C92 9 107 23 113 40 C128 43 137 54 137 70 C137 96 111 109 69 109 C27 109 4 96 4 71 C4 51 17 39 34 37 C41 19 54 9 70 9 Z" fill="#ffffff"/>
+  <path d="M70 17 C90 17 102 31 107 47 C120 49 129 58 129 72 C129 92 105 101 69 101 C34 101 13 92 13 72 C13 55 25 46 41 45 C47 26 58 17 70 17 Z" fill="#ff575d"/>
+  <path d="M70 17 C90 17 102 31 107 47 C120 49 129 58 129 72 C129 92 105 101 69 101 C34 101 13 92 13 72 C13 55 25 46 41 45 C47 26 58 17 70 17 Z" fill="none" stroke="#d92f35" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="99" cy="47" r="12" fill="#ff7e82" opacity="0.82"/>
+  <circle cx="38" cy="78" r="10" fill="#df343c" opacity="0.45"/>
+  <circle cx="112" cy="76" r="8" fill="#df343c" opacity="0.42"/>
+  <path d="M43 37 C49 27 61 23 72 24" fill="none" stroke="#ffa4a8" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+  <path d="M45 62 L60 69" stroke="#07194f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M96 62 L81 69" stroke="#07194f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M59 87 C64 80 76 80 81 87" fill="none" stroke="#07194f" stroke-width="5" stroke-linecap="round"/>
+</svg>
